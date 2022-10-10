@@ -1,0 +1,15 @@
+<custom-action actionType="CitrixWindowWait" isHit="true"
+    name="WindowWait - Search - ACTIVATED" uid="82eea1e3-f6b4-4e42-9e5c-7fa929818fb1">
+    <description>This Action waits for an event (CREATED, ACTIVATED, DESTROYED) for a window with a title (that can be a regexp) and optionally in a certain region of the screen.
+
+Possible parameters are:&#xd;
+- windowName (required): Window name, that can be a regexp like "Calculator.*".&#xd;
+- windowEvent (required): Event to wait: CREATED, ACTIVATED, DESTROYED. Default value is "ACTIVATED".&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height].&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait for receiving the right windowEvent, if 0 it will wait infinitely. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="Search"/>
+    <custom-action-parameter name="windowEvent" type="TEXT" value="ACTIVATED"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="60000"/>
+    <responsePageFileDescription>recorded-responses/res_82eea1e3-f6b4-4e42-9e5c-7fa929818fb1</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@v@d@i_orig/%resources%/recorded-screenshots/sc_fc66c90e-b490-4481-9f97-d3261e9a515a.png</screenshotFileDescription>
+</custom-action>

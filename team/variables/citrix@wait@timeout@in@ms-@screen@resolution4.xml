@@ -1,0 +1,3 @@
+<variable-constant constantValue="60000" name="citrixWaitTimeoutInMs-ScreenResolution4" order="1" policy="1" range="2" uid="fd3b247d-73a8-42a4-accb-4e17cbbb6ec7" whenOutOfValues="CYCLE_VALUES">
+<description>Maximum timeout in milliseconds to wait on Citrix action WindowWait, ScreenshotWait and TextWait for user path ScreenResolution4.</description>
+</variable-constant>

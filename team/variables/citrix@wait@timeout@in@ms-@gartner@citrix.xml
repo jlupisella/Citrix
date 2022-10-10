@@ -1,0 +1,3 @@
+<variable-constant constantValue="60000" name="citrixWaitTimeoutInMs-GartnerCitrix" order="1" policy="1" range="2" uid="bbf27541-6fb3-465a-a5d4-10d6c32be8fd" whenOutOfValues="CYCLE_VALUES">
+<description>Maximum timeout in milliseconds to wait on Citrix action WindowWait, ScreenshotWait and TextWait for user path GartnerCitrix.</description>
+</variable-constant>

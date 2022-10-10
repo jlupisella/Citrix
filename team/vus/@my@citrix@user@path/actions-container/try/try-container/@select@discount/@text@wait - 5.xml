@@ -1,0 +1,20 @@
+<custom-action actionType="CitrixTextWait" isHit="true"
+    name="TextWait - 5" uid="714f72df-a3b5-4499-8130-0224f8849d1e">
+    <description>This Action waits for text to appear in a window (by filling parameter "windowName") OR in a specific region (by filling parameter "windowRect").
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name defining working area, that can be a regexp like "Calculator.*". If empty, the full screenshot is the working area.&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height]. It will be absolute coordinate if no "windowName", or relative coordinate if "windowName" is specified or empty if full screenshot.&#xd;
+- text (required): Text to look for, can be a regexp.&#xd;
+- inverseColor (required): When recognizing white text over black background, set it to true to best result. Default value is "false".&#xd;
+- pollingDelayInMs (required): Delay in milliseconds between each check. Default value is "500".&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <custom-action-parameter name="windowRect" type="TEXT" value="[275,339,12,20]"/>
+    <custom-action-parameter name="text" type="TEXT" value="5"/>
+    <custom-action-parameter name="inverseColor" type="TEXT" value="false"/>
+    <custom-action-parameter name="pollingDelayInMs" type="TEXT" value="500"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="60000"/>
+    <responsePageFileDescription>recorded-responses/res_714f72df-a3b5-4499-8130-0224f8849d1e</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path/%resources%/recorded-screenshots/sc_714f72df-a3b5-4499-8130-0224f8849d1e.png</screenshotFileDescription>
+</custom-action>

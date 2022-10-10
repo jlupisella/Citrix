@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="RunCar" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="4815d97e-d25b-47d0-80d1-3bb24dc67d9e" weightsEnabled="false">
+    <weighted-embedded-action uid="7353af2e-9fc5-4a55-9c14-e728fe61a073"/>
+    <weighted-embedded-action uid="bb8df2b0-845d-47c7-98d7-2c8919621a83"/>
+    <weighted-embedded-action uid="edbc10d1-4e1e-442f-a4e5-507eba431d61"/>
+    <weighted-embedded-action uid="1183da32-5fe3-4856-9915-7d576f2b3039"/>
+    <weighted-embedded-action uid="30d3b954-5ad3-4b33-9699-75297f3b0b58"/>
+</basic-logical-action-container>

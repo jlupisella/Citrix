@@ -1,0 +1,21 @@
+<custom-action actionType="CitrixScreenshotWait" isHit="true"
+    name="ScreenshotWait" uid="bb928a5e-f0ee-4897-8e13-6cbeca3bbb0f">
+    <description>This Action waits for Citrix hashes screen and optionally tries to match screen with a "toleranceLevel" in full screen or a specific region (by filling parameter "windowRect") or a specific window (by filling parameter "windowName") .
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name defining working area, that can be a regexp like "Calculator.*". If empty, the full screenshot is the working area.&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height]. It will be absolute coordinate if no "windowName", or relative coordinate if "windowName" is specified or empty if full screenshot.&#xd;
+- hashes (optional): Citrix hashes list in the format: daf780c43c09882744d4ee90177256c6,daf780c43c09882744d4ee90177256c6.&#xd;
+- toleranceLevel (required): Tolerance level: EXACT (only compare hashes), HIGH (matching at 90%), MEDIUM (matching at 80%), LOW (matching at 65%), LOWEST (matching at 50%). Default value is "MEDIUM".&#xd;
+- toleranceData (optional): Data used when toleranceLevel is lower than EXACT.&#xd;
+- pollingDelayInMs (required): Delay in milliseconds between each screenshot check. Default value is "500".&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait. Default value is "60000".</description>
+    <custom-action-parameter name="windowRect" type="TEXT" value="[11,142,42,40]"/>
+    <custom-action-parameter name="hashes" type="TEXT" value="2b44ba83c43fc773c40b4d686821d515"/>
+    <custom-action-parameter name="toleranceLevel" type="TEXT" value="MEDIUM"/>
+    <custom-action-parameter name="toleranceData" type="TEXT" value="H4sIAAAAAAAAAFvzloG1tIiBKdrTd1eCWtmrTUuZGBgqChgYmF/wTl4gNRCY67PI5pFqN9/xwyEDgbkXJZTy////YSAwl77njVG7R+0etZu2dpNSHiDrJac8QdYPKluQyzn2sj3/0DH395XHQBib3SA93HluS9Axl4HsAnSMrp8rzCqbGHvx2c02tfsGWXa/z7Mhxl58dnP1FjbB7OQ3LWWEYeanmt9AdrJt5JgBwuj6+dfv1SHGXnx2I+vjj/voh2w/PrtZMtcGEWMvLrtB6hm7oxyQ9TOK2a5Cth+X3Zyh92cTspf5cNsrEMZlN8hvcHu9b2XyxMktgWGOuPDJuOxmtnjfRoy9+OxmP33hDghjsxeffmbN5+7E2IvPbjaelF2E7MWmn2vWy3hi7MVr98TLq0Hxis9ebPqZHr11JsZeXHaD1PNy+VcgY2L1c//NMaLUblA6wmc3v9PkSyCMze6BLM8Hsh4btXtk2c1T+tKWw3BrIAzzrJk9n3faxld8k4/t45uhcp/txm5dbpNDrIwzJ4hiw8h6QZjFtOw8uhgIo+tjuMdQwTCIAQD9EQACuw8AAA=="/>
+    <custom-action-parameter name="pollingDelayInMs" type="TEXT" value="500"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="${citrixWaitTimeoutInMs-TrainingDryRun}"/>
+    <responsePageFileDescription>recorded-responses/res_bb928a5e-f0ee-4897-8e13-6cbeca3bbb0f</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@training@dry@run/%resources%/recorded-screenshots/sc_bb928a5e-f0ee-4897-8e13-6cbeca3bbb0f.png</screenshotFileDescription>
+</custom-action>

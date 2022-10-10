@@ -1,0 +1,19 @@
+<custom-action actionType="CitrixMouseClick" isHit="false"
+    name="MouseClick - JCarConfigurator - Version 1" uid="463447a6-036e-4e42-921e-105282406564">
+    <description>This Action sends a mouse click or double click of the specified button and optionally a key modifier.
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name, that can be a regexp like "Calculator.*".&#xd;
+- mousePosition (required): Mouse position, like "x,y". Position is relative to the ICA Client Window if no windowName specified, or relative to the windowName specified.&#xd;
+- mouseButton (required): Mouse button: LEFT_BUTTON, RIGHT_BUTTON or MIDDLE_BUTTON. Default value is "LEFT_BUTTON".&#xd;
+- doubleClick (required): Is a double click or not. Default value is "false".&#xd;
+- modifiers (optional): Comma separated modifiers from the following: [ALT, CTRL, SHIFT, EXTENDED].&#xd;
+- clickDelayInMs (optional): Delay in milliseconds between the mouse click DOWN and the click UP. Default value is "0".&#xd;
+- doubleClickDelayInMs (optional): Delay in millis between the two clicks for a double click. Default value is "100".</description>
+    <custom-action-parameter name="mousePosition" type="TEXT" value="309,376"/>
+    <custom-action-parameter name="doubleClick" type="TEXT" value="false"/>
+    <custom-action-parameter name="mouseButton" type="TEXT" value="LEFT_BUTTON"/>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <responsePageFileDescription>recorded-responses/res_a61b5b77-9e25-4923-9953-cb24ebb44d2f</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@updated/%resources%/recorded-screenshots/sc_a61b5b77-9e25-4923-9953-cb24ebb44d2f.0.png</screenshotFileDescription>
+</custom-action>

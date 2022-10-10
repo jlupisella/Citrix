@@ -1,0 +1,13 @@
+<custom-action actionType="CitrixTextType" isHit="false"
+    name="TextType - www.usatoday.com" uid="4a66bf8a-2d50-44b9-b11f-4d042cd3cf12">
+    <description>This Action sends a text with an optional list of modifiers.
+
+Possible parameters are:&#xd;
+- text (required): Alphanumeric text to send on the keyboard.&#xd;
+- typingRateInMs (optional): Delay in milliseconds between each key typed. "0" means no delay. Default value is "150".&#xd;
+- modifiers (optional): Comma separated modifiers from the following: [ALT, CTRL, SHIFT, EXTENDED].</description>
+    <custom-action-parameter name="text" type="TEXT" value="www.usatoday.com"/>
+    <custom-action-parameter name="modifiers" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_4a66bf8a-2d50-44b9-b11f-4d042cd3cf12</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@v@d@i_orig/%resources%/recorded-screenshots/sc_c428fc40-67a5-46b8-9f41-dfcbe4683fb1.png</screenshotFileDescription>
+</custom-action>

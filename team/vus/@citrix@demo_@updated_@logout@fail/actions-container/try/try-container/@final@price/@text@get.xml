@@ -1,0 +1,18 @@
+<custom-action actionType="CitrixTextGet" isHit="false" name="TextGet" uid="80cd2999-c5a8-4c60-a9bf-212cec6907ad">
+    <description>This Action extracts text from a window (by filling parameter "windowName") OR from a specific region (by filling parameter "windowRect").
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name defining working area, that can be a regexp like "Calculator.*". If empty, the full screenshot is the working area.&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height]. It will be absolute coordinate if no "windowName", or relative coordinate if "windowName" is specified or empty if full screenshot.&#xd;
+- inverseColor (required): When recognizing white text over black background, set it to true to best result. Default value is "false".&#xd;
+- variableName (optional): NeoLoad variable in which to put the text extracted from the screen. Default value is "textGetVariableName".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <custom-action-parameter name="windowRect" type="TEXT" value="[223,369,75,19]"/>
+    <custom-action-parameter name="inverseColor" type="TEXT" value="false"/>
+    <custom-action-parameter name="variableName" type="TEXT" value="textGetVariableName"/>
+    <responsePageFileDescription>recorded-responses/res_3c2b4f1b-e131-4d6f-8c22-edab5e58d76e</responsePageFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="${textGetVariableName}"/>
+    </assertions>
+    <screenshotFileDescription>team/vus/@citrix@demo_@updated_@logout@fail/%resources%/recorded-screenshots/sc_3c2b4f1b-e131-4d6f-8c22-edab5e58d76e.0.png</screenshotFileDescription>
+</custom-action>

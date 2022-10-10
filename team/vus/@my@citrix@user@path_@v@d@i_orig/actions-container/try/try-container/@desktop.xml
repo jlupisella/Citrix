@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Desktop" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="969ed7e5-c7a7-4c54-90a0-dbce909d8c2f" weightsEnabled="false">
+    <weighted-embedded-action uid="b7c453b3-62de-48a3-9e4b-ae41b9a3c61a"/>
+    <weighted-embedded-action uid="e8c36bd5-22e6-4ecf-acb5-74a3dd455823"/>
+    <weighted-embedded-action uid="7c4d8cba-6e37-47c4-8d3f-21f6d672ac0f"/>
+    <weighted-embedded-action uid="6589b427-85ca-4501-a388-d1fd3cb73c28"/>
+</basic-logical-action-container>

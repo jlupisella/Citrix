@@ -1,0 +1,15 @@
+<custom-action actionType="CitrixWindowWait" isHit="true"
+    name="WindowWait - Welcome to Chrome - Google Chrome ..." uid="43fded02-18c3-4275-a319-8f7c9dadd66f">
+    <description>This Action waits for an event (CREATED, ACTIVATED, DESTROYED) for a window with a title (that can be a regexp) and optionally in a certain region of the screen.
+
+Possible parameters are:&#xd;
+- windowName (required): Window name, that can be a regexp like "Calculator.*".&#xd;
+- windowEvent (required): Event to wait: CREATED, ACTIVATED, DESTROYED. Default value is "ACTIVATED".&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height].&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait for receiving the right windowEvent, if 0 it will wait infinitely. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="Welcome to Chrome - Google Chrome"/>
+    <custom-action-parameter name="windowEvent" type="TEXT" value="ACTIVATED"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="60000"/>
+    <responsePageFileDescription>recorded-responses/res_43fded02-18c3-4275-a319-8f7c9dadd66f</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@v@d@i_orig/%resources%/recorded-screenshots/sc_7c2d62dd-baf8-4ed6-abbc-ac3829a519d4.png</screenshotFileDescription>
+</custom-action>

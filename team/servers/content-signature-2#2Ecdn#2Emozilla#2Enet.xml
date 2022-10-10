@@ -1,0 +1,5 @@
+<http-server hostname="content-signature-2.cdn.mozilla.net" port="443"
+    ssl="true" uid="content-signature-2.cdn.mozilla.net"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

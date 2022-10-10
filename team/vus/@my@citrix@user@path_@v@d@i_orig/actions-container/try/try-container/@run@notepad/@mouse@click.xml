@@ -1,0 +1,18 @@
+<custom-action actionType="CitrixMouseClick" isHit="false"
+    name="MouseClick" uid="81a0251f-0092-4a80-a8a2-f2011e39477e">
+    <description>This Action sends a mouse click or double click of the specified button and optionally a key modifier.
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name, that can be a regexp like "Calculator.*".&#xd;
+- mousePosition (required): Mouse position, like "x,y". Position is relative to the ICA Client Window if no windowName specified, or relative to the windowName specified.&#xd;
+- mouseButton (required): Mouse button: LEFT_BUTTON, RIGHT_BUTTON or MIDDLE_BUTTON. Default value is "LEFT_BUTTON".&#xd;
+- doubleClick (required): Is a double click or not. Default value is "false".&#xd;
+- modifiers (optional): Comma separated modifiers from the following: [ALT, CTRL, SHIFT, EXTENDED].&#xd;
+- clickDelayInMs (optional): Delay in milliseconds between the mouse click DOWN and the click UP. Default value is "0".&#xd;
+- doubleClickDelayInMs (optional): Delay in millis between the two clicks for a double click. Default value is "100".</description>
+    <custom-action-parameter name="mousePosition" type="TEXT" value="27,580"/>
+    <custom-action-parameter name="doubleClick" type="TEXT" value="false"/>
+    <custom-action-parameter name="mouseButton" type="TEXT" value="LEFT_BUTTON"/>
+    <responsePageFileDescription>recorded-responses/res_81a0251f-0092-4a80-a8a2-f2011e39477e</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@v@d@i_orig/%resources%/recorded-screenshots/sc_a8e45f06-5f9b-4f67-b522-03cea4b6cbe9.png</screenshotFileDescription>
+</custom-action>

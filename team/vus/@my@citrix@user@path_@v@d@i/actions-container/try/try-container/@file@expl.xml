@@ -1,0 +1,21 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="FileExpl" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="073f4870-ec1b-48e7-85de-b49b7df8ea4a" weightsEnabled="false">
+    <weighted-embedded-action uid="6f4ddc12-95fa-4f05-b37f-2b20dce5fe4d"/>
+    <weighted-embedded-action uid="4b424f8e-62ea-4d0e-9b24-b41cb5ca7ef8"/>
+    <weighted-embedded-action uid="57e78994-7624-4273-aea1-a4285c674d32"/>
+    <weighted-embedded-action uid="0bf51a86-72b1-4f1a-a9c7-a8a8270caf3d"/>
+    <weighted-embedded-action uid="f7786e5c-48c6-4a5e-b9a8-20cfa927f072"/>
+    <weighted-embedded-action uid="e07252e1-0867-41f9-a4ee-7d36bb63af03"/>
+    <weighted-embedded-action uid="a772df25-eb35-468d-bd73-ad007b9af6c6"/>
+    <weighted-embedded-action uid="47c93e20-e056-4d8b-80ef-da51883acf40"/>
+    <weighted-embedded-action uid="026da903-8c49-4252-86d5-0b8f14cf4c32"/>
+    <weighted-embedded-action uid="f07090f8-091c-4bd1-b50d-ed1ca20e5b4b"/>
+    <weighted-embedded-action uid="3855fe27-d1d1-447d-ba9e-8d8e87c4332b"/>
+    <weighted-embedded-action uid="192b95f8-a010-4896-a60b-3b6ebdf34060"/>
+    <weighted-embedded-action uid="29cda58c-a265-4dfd-8bfc-c8484a227aab"/>
+    <weighted-embedded-action uid="42240ccf-48ff-4a59-9055-f5a8c85e92c9"/>
+    <weighted-embedded-action uid="09e198fd-582a-419f-a598-b10865d07db3"/>
+    <weighted-embedded-action uid="6a35f0f1-b8a0-44c7-beac-99ade626b904"/>
+</basic-logical-action-container>

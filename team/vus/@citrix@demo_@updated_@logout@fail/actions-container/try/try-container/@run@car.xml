@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="RunCar" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="266f0a98-697b-4721-8d4c-a4474157ad0f" weightsEnabled="false">
+    <weighted-embedded-action uid="cba1c30b-3d18-4f5e-aaa2-72ad1cb1cca6"/>
+    <weighted-embedded-action uid="bbfa27e8-1ba2-49e2-9e3a-6579077786b8"/>
+</basic-logical-action-container>

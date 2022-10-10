@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="StoreFront" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e75bd16f-0a9d-4c76-9306-316b893b6b3e" weightsEnabled="false">
+    <weighted-embedded-action uid="7a27c41a-33a1-44bd-9c60-b259b48645c4"/>
+    <weighted-embedded-action uid="cfa6fa07-2aad-487d-9409-972f64cbfee0"/>
+</basic-logical-action-container>

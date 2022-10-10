@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="GetFinalPrice" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ce93f673-f7ec-4e0c-a151-af86760e61d0" weightsEnabled="false">
+    <weighted-embedded-action uid="66c03da6-14a6-4133-8e47-29b070780d9e"/>
+    <weighted-embedded-action uid="5773a93b-4355-453e-bc93-e99d6e207cc0"/>
+</basic-logical-action-container>

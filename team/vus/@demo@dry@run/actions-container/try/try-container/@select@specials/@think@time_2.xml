@@ -1,0 +1,2 @@
+<delay-action duration="5000" isThinkTime="true" name="ThinkTime_2"
+    timeMode="MODE_SIMPLE_THINK_TIME" timeRangeEnd="" timeRangeStart="" uid="8998800d-9839-4585-9bf8-00616ab09a83"/>

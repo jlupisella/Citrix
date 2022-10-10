@@ -1,0 +1,22 @@
+<custom-action actionType="CitrixConnectICA" isHit="true"
+    name="ConnectStoreFront - RunCar.ica" uid="8295d3cb-3a41-4735-a2ff-f5f3239af05a">
+    <description>This Action opens a new Citrix connection based on an ICA file that can be given as a full or relative path, or from a string that can be a variable. The established connection is contextual to the User Path and will be used to perform all the other actions.
+
+Possible parameters are:&#xd;
+- icaFilePath (optional): The file path to the ICA File, absolute or relative path to &lt;project&gt;/custom-resources.&#xd;
+- icaFileAsString (optional): The content of the ICA File as a String.&#xd;
+- windowSize (optional): Force the size of the window width*height like 800*600.&#xd;
+- icaFile.&lt;rubric&gt;.&lt;name&gt; (optional): Override or add any property inside the icafile, under a specific [rubric] for any &lt;name&gt;=&lt;value&gt;. Default value is "&lt;value&gt;".&#xd;
+- properties.&lt;propertyName&gt; (optional): Any &lt;propertyName&gt; associated to &lt;propertyValue&gt; that must be set to the ICA Client before connection.&#xd;
+- connectTimeoutInMs (required): Maximum timeout in millis to wait for connect and logon to the server. Default value is "180000".&#xd;
+- ocrDataPath (optional): In case you want to do OCR in a non-English language, download the file from https://github.com/tesseract-ocr/tessdata_fast, put it into &lt;yourproject&gt;/custom-resources folder and name it like "fra.traineddata".&#xd;
+- useCacheForHashes (optional): For heavy load, and SHA2/OCR strong usage, you may try to use cache in order to reduce disk/cpu consumption. Default value is "false".&#xd;
+- noGuiMode (optional): Set to "false" to force to display GUI, even while running a test. Default value is "true".&#xd;
+- encryptionLevelSession (optional): The encryption level of the ICA connection [Basic, EncRC5-0, EncRC5-40, EncRC5-56, EncRC5-128].</description>
+    <custom-action-parameter name="icaFileAsString" type="TEXT" value="${IcaContent}"/>
+    <custom-action-parameter name="connectTimeoutInMs" type="TEXT" value="180000"/>
+    <custom-action-parameter name="windowSize" type="TEXT" value="800*600"/>
+    <custom-action-parameter name="ocrDataPath" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_4d6d9af4-811c-4117-a75f-d7cca7bc5d85</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@updated/%resources%/recorded-screenshots/sc_4d6d9af4-811c-4117-a75f-d7cca7bc5d85.0.png</screenshotFileDescription>
+</custom-action>

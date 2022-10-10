@@ -1,0 +1,3 @@
+<variable-constant constantValue="60000" name="citrixWaitTimeoutInMs-TrainingDryRun" order="1" policy="1" range="2" uid="cddc2ddb-6edc-4055-8ffd-bca4adb54064" whenOutOfValues="CYCLE_VALUES">
+<description>Maximum timeout in milliseconds to wait on Citrix action WindowWait, ScreenshotWait and TextWait for user path TrainingDryRun.</description>
+</variable-constant>

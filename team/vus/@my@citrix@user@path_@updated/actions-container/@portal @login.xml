@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Portal Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ddfc06ef-4420-44c9-be7f-53a6aa5db984" weightsEnabled="false">
+    <weighted-embedded-action uid="855fc6c9-d2b5-4527-9d30-5a4cb3fc71c4"/>
+    <weighted-embedded-action uid="6d130f0d-f98c-4c38-a651-028c0c4d6787"/>
+    <weighted-embedded-action uid="a89ed89d-bbfc-4e01-acbe-8ef39d193d43"/>
+    <weighted-embedded-action uid="70c31ead-256c-4285-81e3-f6acb66388eb"/>
+    <weighted-embedded-action uid="f5fe365a-f15c-485f-9981-5abb9b015fe5"/>
+</basic-logical-action-container>

@@ -1,0 +1,22 @@
+<custom-action actionType="CitrixScreenshotWait" isHit="true"
+    name="ScreenshotWait" uid="4dc8bc58-6b7f-434c-b172-e47ee94e8d14">
+    <description>This Action waits for Citrix hashes screen and optionally tries to match screen with a "toleranceLevel" in full screen or a specific region (by filling parameter "windowRect") or a specific window (by filling parameter "windowName") .
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name defining working area, that can be a regexp like "Calculator.*". If empty, the full screenshot is the working area.&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height]. It will be absolute coordinate if no "windowName", or relative coordinate if "windowName" is specified or empty if full screenshot.&#xd;
+- hashes (optional): Citrix hashes list in the format: daf780c43c09882744d4ee90177256c6,daf780c43c09882744d4ee90177256c6.&#xd;
+- toleranceLevel (required): Tolerance level: EXACT (only compare hashes), HIGH (matching at 90%), MEDIUM (matching at 80%), LOW (matching at 65%). Default value is "HIGH".&#xd;
+- toleranceData (optional): Data used when toleranceLevel is lower than EXACT.&#xd;
+- pollingDelayInMs (required): Delay in milliseconds between each screenshot check. Default value is "500".&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <custom-action-parameter name="windowRect" type="TEXT" value="[7,145,52,43]"/>
+    <custom-action-parameter name="hashes" type="TEXT" value="f681d1c88ab07df1b44817c7e9d29669"/>
+    <custom-action-parameter name="toleranceLevel" type="TEXT" value="HIGH"/>
+    <custom-action-parameter name="toleranceData" type="TEXT" value="H4sIAAAAAAAAAFvzloG1tIiBKdrTd1eCWtmrTUuZGBgqChgYmF/wHT8cMiA49Ukv////HwYCMxxdzzFq96jdo3bT1m5CZQCyenLKEFz6uS+kcrCX7fmHjrm/rzwGwtj08k5eIIWMydXPwjD3Pi59xNqNbj+x+pmO77qDSx+xdvObljLCMPNTzW/E6ueUP62By158epHdyx/30Q/ZfmL1My09uwCXvbj0YotfRjHbVdjsx6efW3TeFGx2Mh9uewXCxNjN6H0rkydObgkMc8SFTyZGP5Oj5xZc9hJjNz57Celna1/iiMteQnoJ2UtIP1f6r7e47CWkFxSv+OzFpx9sp9xDQVz24tKLL32Qop+nkkVjIO0eyPJ8IOuxUbtH7R61m7Z2s688L8hXq8nHaZqYxlYm2M4al3CfoeKUBPOJ8B2cClP/YsMsGsbuMMx/7X4ZO1cLN3vN+6m8R/hWsXoEXAVhkDgu/fzRKY28RY5XGQYxAADWtbjCuw8AAA=="/>
+    <custom-action-parameter name="pollingDelayInMs" type="TEXT" value="500"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="60000"/>
+    <responsePageFileDescription>recorded-responses/res_4dc8bc58-6b7f-434c-b172-e47ee94e8d14</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path/%resources%/recorded-screenshots/sc_4dc8bc58-6b7f-434c-b172-e47ee94e8d14.png</screenshotFileDescription>
+</custom-action>

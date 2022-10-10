@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    slaProfileName="Citrix_SLA" type="LEGACY" uid="MyCitrixUserPath_Updated">
+    <description>Added variables for Username/Passwords. Changed selections on Specials and Accessories. Increased discount.</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="ddfc06ef-4420-44c9-be7f-53a6aa5db984"/>
+        <weighted-embedded-action uid="1c0431b1-1718-4445-9cbf-75449db3081f"/>
+        <weighted-embedded-action uid="c13b637d-4725-43b3-b10e-d7d34967c429"/>
+        <weighted-embedded-action uid="828daaff-212f-4139-ba54-4fe690fc230a"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="3b8a61a1-9fd5-40cf-a900-8d34a5b08c97"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="10000"/>
+</virtual-user>

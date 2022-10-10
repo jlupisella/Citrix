@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Desktop" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="31a5adc7-bd9a-4460-892a-978b4a571ba8" weightsEnabled="false">
+    <weighted-embedded-action uid="c2499603-1932-4ca5-bcec-71316c5b991b"/>
+    <weighted-embedded-action uid="f6e700cc-20e9-4565-ba55-2e5e31f563a6"/>
+</basic-logical-action-container>

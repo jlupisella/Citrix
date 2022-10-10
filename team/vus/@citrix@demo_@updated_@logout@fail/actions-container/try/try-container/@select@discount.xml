@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SelectDiscount" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5c41bec4-9615-45a4-a49b-2eccc15bc90a" weightsEnabled="false">
+    <weighted-embedded-action uid="f9564bd7-7696-4f13-8e70-cd221de89121"/>
+    <weighted-embedded-action uid="3f4facee-2a3c-4222-a175-7f468d2afe7b"/>
+    <weighted-embedded-action uid="70fa9217-8550-4483-8336-6be804037ad0"/>
+    <weighted-embedded-action uid="858f3ae8-b7c8-4451-b051-aa23ea9ec493"/>
+    <weighted-embedded-action uid="7c6171ef-123d-4b2f-968f-3390329c6bc5"/>
+    <weighted-embedded-action uid="6c914048-8c74-493f-a423-216a027db65d"/>
+</basic-logical-action-container>

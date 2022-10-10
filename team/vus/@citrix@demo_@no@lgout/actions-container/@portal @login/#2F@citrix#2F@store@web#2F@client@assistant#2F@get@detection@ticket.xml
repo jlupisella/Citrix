@@ -1,0 +1,96 @@
+<http-page executeResourcesDynamically="false"
+    name="/Citrix/StoreWeb/ClientAssistant/GetDetectionTicket"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@citrix@demo_@no@lgout/%resources%/recorded-artifacts/5cc98056-6ba5-4819-9b28-0161b1d71a9c.zip"
+    slaProfileEnabled="false" thinkTime="2757"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5cc98056-6ba5-4819-9b28-0161b1d71a9c">
+    <embedded-action>722a425f-7192-4e0b-a801-a945274356ef</embedded-action>
+    <embedded-action>1d13d11f-e59b-4987-9a1d-a2b070390535</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/Citrix/StoreWeb/ClientAssistant/GetDetectionTicket"
+    path="/Citrix/StoreWeb/ClientAssistant/GetDetectionTicket"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@citrix@demo_@no@lgout/%resources%/recorded-artifacts/5cc98056-6ba5-4819-9b28-0161b1d71a9c.zip"
+    recordedResponseCode="200" responseSize="248"
+    serverUid="172.31.41.203" slaProfileEnabled="false"
+    uid="722a425f-7192-4e0b-a801-a945274356ef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_22d9bec9-3628-4ea7-899f-cfd0319da05b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_22d9bec9-3628-4ea7-899f-cfd0319da05b.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="CsrfToken=${CsrfToken}; ASP.NET_SessionId=4afiogfxzjnlsuxfghlt3wne"/>
+    <header name="Csrf-Token" value="${CsrfToken}"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="172.31.41.203"/>
+    <header name="Origin" value="http://172.31.41.203"/>
+    <header name="Referer" value="http://172.31.41.203/Citrix/StoreWeb/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0"/>
+    <header name="X-Citrix-IsUsingHTTPS" value="No"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json&#xd;
+Expires: -1&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Citrix-Application: Receiver for Web&#xd;
+Date: Fri, 24 Jan 2020 17:57:10 GMT&#xd;
+Content-Length: 248</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/Citrix/StoreWeb/ClientAssistant/GetDetectionStatus"
+    path="/Citrix/StoreWeb/ClientAssistant/GetDetectionStatus"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/@citrix@demo_@no@lgout/%resources%/recorded-artifacts/5cc98056-6ba5-4819-9b28-0161b1d71a9c.zip"
+    recordedResponseCode="200" responseSize="20"
+    serverUid="172.31.41.203" slaProfileEnabled="false"
+    uid="1d13d11f-e59b-4987-9a1d-a2b070390535" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dGlja2V0PUNEVF9ETFJWaEhJekdfT0txdmZ3emUycUhXSlRjaDFrMUJnV3pENWghZEdlX0NhejRlVTBlTWVtVUxRa3NoUlVqNWVv]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_247dc2f6-e447-43e2-a870-d96f7383de18</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_247dc2f6-e447-43e2-a870-d96f7383de18.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="ticket"
+        recordRawValue="CDT_DLRVhHIzG_OKqvfwze2qHWJTch1k1BgWzD5h!dGe_Caz4eU0eMemULQkshRUj5eo"
+        separator="="
+        value="CDT_DLRVhHIzG_OKqvfwze2qHWJTch1k1BgWzD5h!dGe_Caz4eU0eMemULQkshRUj5eo" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="CsrfToken=${CsrfToken}; ASP.NET_SessionId=4afiogfxzjnlsuxfghlt3wne"/>
+    <header name="Csrf-Token" value="${CsrfToken}"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="172.31.41.203"/>
+    <header name="Origin" value="http://172.31.41.203"/>
+    <header name="Referer" value="http://172.31.41.203/Citrix/StoreWeb/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0"/>
+    <header name="X-Citrix-IsUsingHTTPS" value="No"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-cache, no-store&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json&#xd;
+Expires: -1&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-Powered-By: ASP.NET&#xd;
+X-Citrix-Application: Receiver for Web&#xd;
+Date: Fri, 24 Jan 2020 17:57:11 GMT&#xd;
+Content-Length: 20</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

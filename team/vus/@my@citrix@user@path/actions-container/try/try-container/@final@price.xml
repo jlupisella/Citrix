@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="FinalPrice" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="34c97b5c-aafb-407b-a3e1-50e1165dbb4e" weightsEnabled="false">
+    <weighted-embedded-action uid="b3ddd8c9-863a-4eb3-8df2-dba5817a9cb3"/>
+    <weighted-embedded-action uid="e6cb30e7-2e77-4af1-9ed3-39f7fa4de30f"/>
+    <weighted-embedded-action uid="5036f95f-f406-4bce-b9cb-a78f2c5fdb6f"/>
+</basic-logical-action-container>

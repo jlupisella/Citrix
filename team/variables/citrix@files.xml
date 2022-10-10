@@ -1,0 +1,5 @@
+<variable-list name="citrixFiles" offset="1" order="1" policy="5" range="2" uid="5a18913b-7a05-4937-9a43-e82fda1630d1" whenOutOfValues="CYCLE_VALUES">
+<description>ICA connection file variable, ICA files in project "custom-resources". Two ways of using it. Either with one file for all virtual users (default), then scope should to be local, and username property should be overwritten. Or with one different file for each virtual user, then scope should to be unique and there should be as many ICA file as concurrent virtual users.</description>
+<column name="ica" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAClJ1bkNhci5pY2E=]]></values>
+</variable-list>

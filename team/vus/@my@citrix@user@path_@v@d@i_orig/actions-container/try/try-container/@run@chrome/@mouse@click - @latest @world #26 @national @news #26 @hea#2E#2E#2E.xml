@@ -1,0 +1,19 @@
+<custom-action actionType="CitrixMouseClick" isHit="false"
+    name="MouseClick - Latest World &amp; National News &amp; Hea..." uid="e3a47e31-994a-45ed-9288-fc914f6f3472">
+    <description>This Action sends a mouse click or double click of the specified button and optionally a key modifier.
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name, that can be a regexp like "Calculator.*".&#xd;
+- mousePosition (required): Mouse position, like "x,y". Position is relative to the ICA Client Window if no windowName specified, or relative to the windowName specified.&#xd;
+- mouseButton (required): Mouse button: LEFT_BUTTON, RIGHT_BUTTON or MIDDLE_BUTTON. Default value is "LEFT_BUTTON".&#xd;
+- doubleClick (required): Is a double click or not. Default value is "false".&#xd;
+- modifiers (optional): Comma separated modifiers from the following: [ALT, CTRL, SHIFT, EXTENDED].&#xd;
+- clickDelayInMs (optional): Delay in milliseconds between the mouse click DOWN and the click UP. Default value is "0".&#xd;
+- doubleClickDelayInMs (optional): Delay in millis between the two clicks for a double click. Default value is "100".</description>
+    <custom-action-parameter name="mousePosition" type="TEXT" value="739,16"/>
+    <custom-action-parameter name="doubleClick" type="TEXT" value="false"/>
+    <custom-action-parameter name="mouseButton" type="TEXT" value="LEFT_BUTTON"/>
+    <custom-action-parameter name="windowName" type="TEXT" value="Latest World &amp; National News &amp; Headlines - USATODAY.com - Goog"/>
+    <responsePageFileDescription>recorded-responses/res_e3a47e31-994a-45ed-9288-fc914f6f3472</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@my@citrix@user@path_@v@d@i_orig/%resources%/recorded-screenshots/sc_ae9c5c27-f8ea-4591-8245-a2f4966f013e.png</screenshotFileDescription>
+</custom-action>

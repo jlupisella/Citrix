@@ -1,0 +1,23 @@
+<custom-action actionType="CitrixConnectICA" isHit="true"
+    name="ConnectStoreFront - RunCar.ica" uid="b9f44a83-aa98-407f-8feb-f350142e9aad">
+    <description>This Action opens a new Citrix connection based on an ICA file that can be given as a full or relative path, or from a string that can be a variable. The established connection is contextual to the User Path and will be used to perform all the other actions.
+
+Possible parameters are:&#xd;
+- icaFilePath (optional): The file path to the ICA File, absolute or relative path to &lt;project&gt;/custom-resources.&#xd;
+- icaFileAsString (optional): The content of the ICA File as a String.&#xd;
+- windowSize (optional): Force the size of the window width*height like 800*600.&#xd;
+- icaFile.&lt;rubric&gt;.&lt;name&gt; (optional): Override or add any property inside the icafile, under a specific [rubric] for any &lt;name&gt;=&lt;value&gt;. Default value is "&lt;value&gt;".&#xd;
+- properties.&lt;propertyName&gt; (optional): Any &lt;propertyName&gt; associated to &lt;propertyValue&gt; that must be set to the ICA Client before connection.&#xd;
+- connectTimeoutInMs (optional): Maximum timeout in millis to wait for connect and logon to the server. Default is 180000 ms. Default value is "180000".&#xd;
+- ocrDataPath (optional): In case you want to do OCR in a non-English language, download the file from https://github.com/tesseract-ocr/tessdata_fast, put it into &lt;yourproject&gt;/custom-resources folder and name it like "fra.traineddata".&#xd;
+- useCacheForHashes (optional): For heavy load, and SHA2/OCR strong usage, you may try to use cache in order to reduce disk/cpu consumption. Default value is "false".&#xd;
+- noGuiMode (optional): Set to "false" to force to display GUI, even while running a test. Default value is "true".&#xd;
+- encryptionLevelSession (optional): The encryption level of the ICA connection [Basic, EncRC5-0, EncRC5-40, EncRC5-56, EncRC5-128].&#xd;
+- connectMode (optional): Specify the mode to connect: [CONNECT, LOGON, CONNECT_AND_LOGON]. Default is CONNECT_AND_LOGON.</description>
+    <custom-action-parameter name="icaFileAsString" type="TEXT" value="${IcaContent}"/>
+    <custom-action-parameter name="connectTimeoutInMs" type="TEXT" value="180000"/>
+    <custom-action-parameter name="windowSize" type="TEXT" value="800*600"/>
+    <custom-action-parameter name="ocrDataPath" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_b9f44a83-aa98-407f-8feb-f350142e9aad</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@training@dry@run/%resources%/recorded-screenshots/sc_b9f44a83-aa98-407f-8feb-f350142e9aad.png</screenshotFileDescription>
+</custom-action>

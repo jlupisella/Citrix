@@ -1,0 +1,18 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="RunChrome" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="11dc32c8-66f8-4cee-8307-8c74275f6c6f" weightsEnabled="false">
+    <weighted-embedded-action uid="f413b9c4-d59b-4778-9df3-9a6faec87378"/>
+    <weighted-embedded-action uid="addf6049-c144-4e82-87e7-6964a9079672"/>
+    <weighted-embedded-action uid="d27c2126-b62b-4fa5-9ffc-61150ad494ea"/>
+    <weighted-embedded-action uid="5a8f5a7d-4996-48a4-bbc5-39373d0f87c1"/>
+    <weighted-embedded-action uid="43fded02-18c3-4275-a319-8f7c9dadd66f"/>
+    <weighted-embedded-action uid="6425fa50-5799-4e60-85ba-9a2ce6e7e40d"/>
+    <weighted-embedded-action uid="1aed635d-aa53-4d64-8e83-720314fe8ce4"/>
+    <weighted-embedded-action uid="4a66bf8a-2d50-44b9-b11f-4d042cd3cf12"/>
+    <weighted-embedded-action uid="bf1576b8-1da2-42a0-ab46-92f73d14a0ea"/>
+    <weighted-embedded-action uid="183153ee-079c-4275-9550-e7a774933f60"/>
+    <weighted-embedded-action uid="56c3fafc-e985-4ef6-a9ee-23331c6079f4"/>
+    <weighted-embedded-action uid="54e3cd5e-2149-4ebe-b890-c2a35aac6174"/>
+    <weighted-embedded-action uid="e3a47e31-994a-45ed-9288-fc914f6f3472"/>
+</basic-logical-action-container>

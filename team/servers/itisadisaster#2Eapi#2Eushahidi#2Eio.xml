@@ -1,0 +1,5 @@
+<http-server hostname="itisadisaster.api.ushahidi.io" port="443"
+    ssl="true" uid="itisadisaster.api.ushahidi.io"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

@@ -1,0 +1,22 @@
+<custom-action actionType="CitrixScreenshotWait" isHit="true"
+    name="ScreenshotWait" uid="f1c2c268-0abf-4145-8045-085303388737">
+    <description>This Action waits for Citrix hashes screen and optionally tries to match screen with a "toleranceLevel" in full screen or a specific region (by filling parameter "windowRect") or a specific window (by filling parameter "windowName") .
+
+Possible parameters are:&#xd;
+- windowName (optional): Window name defining working area, that can be a regexp like "Calculator.*". If empty, the full screenshot is the working area.&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height]. It will be absolute coordinate if no "windowName", or relative coordinate if "windowName" is specified or empty if full screenshot.&#xd;
+- hashes (optional): Citrix hashes list in the format: daf780c43c09882744d4ee90177256c6,daf780c43c09882744d4ee90177256c6.&#xd;
+- toleranceLevel (required): Tolerance level: EXACT (only compare hashes), HIGH (matching at 90%), MEDIUM (matching at 80%), LOW (matching at 65%). Default value is "HIGH".&#xd;
+- toleranceData (optional): Data used when toleranceLevel is lower than EXACT.&#xd;
+- pollingDelayInMs (required): Delay in milliseconds between each screenshot check. Default value is "500".&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <custom-action-parameter name="windowRect" type="TEXT" value="[4,148,48,29]"/>
+    <custom-action-parameter name="hashes" type="TEXT" value="c51f1b4510a0b4ba6335f7e230185155"/>
+    <custom-action-parameter name="toleranceLevel" type="TEXT" value="LOW"/>
+    <custom-action-parameter name="toleranceData" type="TEXT" value="H4sIAAAAAAAAAFvzloG1tIiBKdrTd1eCWtmrTUuZGBgqChgYmD15Jy+QGsW0wXzHD4fQG/P///9hFI/iUTw4MaE8S2mexybPXrbnHwhzf195DISx6QGVV9x5bkvQMZeB7AJ0jEs/Mka2D5+dbFO7b1DDTnT78NnJ1VvYBLOL37SUEYaZn2p+A9nFtpFjBgjjsxM9TAnZCVMPwvxxH/2Q7SXGTmT9xNgJUsfYHeWArI9RzHYVsr347ETWh2wn8+G2VyCMSw/IL3D7vG9l8sTJLYFhjrjwyaTaCbMPn53spy/cAWFs9hGlH4d9+PSw8aTsImQfITvRw5SgnRMvrwbFGz778OlHTjPE6AGp4+Xyr0DG2OzDp58cO0HpA5+d/E6TL4EwMXYORHk70HXMcMY8L97O5BOYHML1ny+aueWGLL/HeRFsmPuvdDQcf/tpxV3vXMHyZ/1EZAwSx6l/lrQQv/BTIxanu3cBjUe8jD8NAAA="/>
+    <custom-action-parameter name="pollingDelayInMs" type="TEXT" value="500"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="60000"/>
+    <responsePageFileDescription>recorded-responses/res_f1c2c268-0abf-4145-8045-085303388737</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@demo@dry@run/%resources%/recorded-screenshots/sc_f1c2c268-0abf-4145-8045-085303388737.png</screenshotFileDescription>
+</custom-action>
